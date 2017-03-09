@@ -8,7 +8,6 @@ public class Main {
         int[] tab = {4,7,8,3,5,4};
         boolean flag = true;
 
-
         for (int j=0; j<tab.length-1; j++) {
             for (int i=0; i<tab.length-1; i++) {
                 if (tab[i] > tab[i + 1]) {
